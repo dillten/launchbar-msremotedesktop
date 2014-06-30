@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.dillten.launchbar.MSRemoteDesktop</string>
+	<key>CFBundleName</key>
+	<string>Microsoft Remote Desktop</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleIconFile</key>
+	<string>com.microsoft.rdc.mac</string>
+	<key>LBDebugLogEnabled</key>
+	<true/>
+	<key>LBTextInputTitle</key>
+	<string>Computer Name</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBScriptName</key>
+			<string>default.sh</string>
+			<key>LBRunInBackground</key>
+			<false/>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+			  <string>string</string>
+			</array>
+			<key>LBReturnsResult</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBSummary</key>
+		<string>Enables quick launch connection to Microsoft Remote Desktop systems.</string>
+		<key>LBRequirements</key>
+		<string>Microsoft Remote Desktop 8.0.7 - available in the AppStore.</string>
+		<key>LBAuthor</key>
+		<string>Dillon TenBrink</string>
+		<key>LBEmail</key>
+		<string>dillon@tenbrink.us</string>
+		<key>LBWebsite</key>
+		<string>https://github.com/dillten/launchbar-msremotedesktop</string>
+		<key>LBTwitter</key>
+		<string>@dillten</string>
+		<key>LBArgument</key>
+		<string>Computer to connect to</string>
+	</dict>
+</dict>
+</plist>
