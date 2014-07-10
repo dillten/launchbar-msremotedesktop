@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>Microsoft Remote Desktop</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.01</string>
 	<key>CFBundleIconFile</key>
 	<string>com.microsoft.rdc.mac</string>
 	<key>LBDebugLogEnabled</key>
